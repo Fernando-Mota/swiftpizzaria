@@ -9,27 +9,29 @@
 import UIKit
 
 class ViewDescricao: UIViewController {
+    
+    
+    @IBOutlet weak var ibagem: UIImageView!
+    
+    @IBOutlet weak var descricaoCompleta: UITextView!
+    
+    @IBOutlet weak var preco: UITextView!
+    
+    var produto: Produto?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let produtoDescricao = produto {
+            descricaoCompleta.text = produtoDescricao.getDescricaoCompleta()
+            preco.text = "Preço \(produtoDescricao.getValorTexto())"
+            ibagem.image = pizzaPresenter.loadImage(imagePath: produtoDescricao.getImagePath())
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func addToCart(_ sender: UIButton) {
+        if let produtoAAdicionar = produto {
+            carrinho.adiciona(produto: produtoAAdicionar)
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

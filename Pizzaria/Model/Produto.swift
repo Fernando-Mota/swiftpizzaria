@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+
+protocol Produto {
+    
+    func getValor() -> Float
+
+    func getValorTexto() -> String
+    
+    func getDescricao() -> String
+    
+    func getDescricaoCompleta() -> String
+    
+    func getImagePath() -> String
+
+}

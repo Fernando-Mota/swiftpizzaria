@@ -8,20 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		432B452A1EDE233A005524EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45291EDE233A005524EC /* AppDelegate.swift */; };
-		432B452C1EDE233A005524EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B452B1EDE233A005524EC /* ViewController.swift */; };
 		432B452F1EDE233A005524EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432B452D1EDE233A005524EC /* Main.storyboard */; };
 		432B45311EDE233A005524EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432B45301EDE233A005524EC /* Assets.xcassets */; };
 		432B45341EDE233A005524EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432B45321EDE233A005524EC /* LaunchScreen.storyboard */; };
+		432B45501EDE2B5A005524EC /* 001-pizza-1-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454A1EDE2B5A005524EC /* 001-pizza-1-32.png */; };
+		432B45511EDE2B5A005524EC /* 002-list-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454B1EDE2B5A005524EC /* 002-list-32.png */; };
+		432B45521EDE2B5A005524EC /* 003-shopping-cart-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454C1EDE2B5A005524EC /* 003-shopping-cart-32.png */; };
+		432B45531EDE2B5A005524EC /* 004-glass-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454D1EDE2B5A005524EC /* 004-glass-32.png */; };
+		432B45541EDE2B5A005524EC /* 005-pizza-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454E1EDE2B5A005524EC /* 005-pizza-32.png */; };
+		432B45551EDE2B5A005524EC /* 006-ice-cream-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B454F1EDE2B5A005524EC /* 006-ice-cream-32.png */; };
+		432B455D1EDE2FCB005524EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B455C1EDE2FCB005524EC /* MainViewController.swift */; };
+		432B455F1EDE2FFA005524EC /* PizzaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B455E1EDE2FFA005524EC /* PizzaRepository.swift */; };
+		432B45611EDE301D005524EC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45601EDE301D005524EC /* Pizza.swift */; };
+		432B45631EDE302B005524EC /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45621EDE302B005524EC /* Bebida.swift */; };
+		432B45651EDE3036005524EC /* Sobremesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45641EDE3036005524EC /* Sobremesa.swift */; };
+		432B45671EDE307D005524EC /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45661EDE307D005524EC /* Produto.swift */; };
+		432B45691EDE3090005524EC /* Carrinho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45681EDE3090005524EC /* Carrinho.swift */; };
+		432B456D1EDE361A005524EC /* UICardapioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B456C1EDE361A005524EC /* UICardapioViewController.swift */; };
+		432B45711EDE3A5D005524EC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B456F1EDE3A5D005524EC /* icon.png */; };
+		432B45721EDE3A5D005524EC /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B45701EDE3A5D005524EC /* welcome.png */; };
+		432B45741EDE423E005524EC /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 432B45731EDE423E005524EC /* home.png */; };
+		432B45761EDE4407005524EC /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45751EDE4407005524EC /* DashboardController.swift */; };
+		432B45781EDE55F2005524EC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45771EDE55F2005524EC /* File.swift */; };
+		432B457A1EDE5795005524EC /* BebidaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B45791EDE5795005524EC /* BebidaRepository.swift */; };
+		4355F5E31EDF7CD3008E5F89 /* refrigerante.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5D71EDF7CD3008E5F89 /* refrigerante.png */; };
+		4355F5E41EDF7CD3008E5F89 /* vinhoTinto.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5D81EDF7CD3008E5F89 /* vinhoTinto.png */; };
+		4355F5E51EDF7CD3008E5F89 /* pinga.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5D91EDF7CD3008E5F89 /* pinga.png */; };
+		4355F5E61EDF7CD3008E5F89 /* suco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DA1EDF7CD3008E5F89 /* suco.png */; };
+		4355F5E71EDF7CD3008E5F89 /* frangoCatupiry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DB1EDF7CD3008E5F89 /* frangoCatupiry.png */; };
+		4355F5E81EDF7CD3008E5F89 /* brigadeiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DC1EDF7CD3008E5F89 /* brigadeiro.png */; };
+		4355F5E91EDF7CD3008E5F89 /* portuguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DD1EDF7CD3008E5F89 /* portuguesa.png */; };
+		4355F5EA1EDF7CD3008E5F89 /* Atum.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DE1EDF7CD3008E5F89 /* Atum.png */; };
+		4355F5EB1EDF7CD3008E5F89 /* mussarela.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5DF1EDF7CD3008E5F89 /* mussarela.png */; };
+		4355F5EC1EDF7CD3008E5F89 /* fioOvos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5E01EDF7CD3008E5F89 /* fioOvos.png */; };
+		4355F5ED1EDF7CD3008E5F89 /* sorvete.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5E11EDF7CD3008E5F89 /* sorvete.png */; };
+		4355F5EE1EDF7CD3008E5F89 /* saladaFruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5E21EDF7CD3008E5F89 /* saladaFruta.png */; };
+		4355F5F01EDF7EBD008E5F89 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5EF1EDF7EBD008E5F89 /* Injector.swift */; };
+		4355F5F21EDF7F45008E5F89 /* PizzaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5F11EDF7F45008E5F89 /* PizzaPresenter.swift */; };
+		4355F5F41EDF7F6A008E5F89 /* BebidaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5F31EDF7F6A008E5F89 /* BebidaPresenter.swift */; };
+		4355F5F61EDF7F8B008E5F89 /* SobremesaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5F51EDF7F8B008E5F89 /* SobremesaPresenter.swift */; };
+		4355F5FA1EDF888E008E5F89 /* ListaProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5F91EDF888E008E5F89 /* ListaProdutos.swift */; };
+		4355F5FC1EDF9C94008E5F89 /* ViewDescricao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5FB1EDF9C94008E5F89 /* ViewDescricao.swift */; };
+		4355F5FE1EDFA499008E5F89 /* ViewCarrinho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355F5FD1EDFA499008E5F89 /* ViewCarrinho.swift */; };
+		4355F6001EDFA936008E5F89 /* forno.png in Resources */ = {isa = PBXBuildFile; fileRef = 4355F5FF1EDFA936008E5F89 /* forno.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		432B45261EDE233A005524EC /* Pizzaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432B45291EDE233A005524EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		432B452B1EDE233A005524EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		432B452E1EDE233A005524EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		432B45301EDE233A005524EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432B45331EDE233A005524EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		432B45351EDE233A005524EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432B454A1EDE2B5A005524EC /* 001-pizza-1-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-pizza-1-32.png"; sourceTree = "<group>"; };
+		432B454B1EDE2B5A005524EC /* 002-list-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-list-32.png"; sourceTree = "<group>"; };
+		432B454C1EDE2B5A005524EC /* 003-shopping-cart-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-shopping-cart-32.png"; sourceTree = "<group>"; };
+		432B454D1EDE2B5A005524EC /* 004-glass-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004-glass-32.png"; sourceTree = "<group>"; };
+		432B454E1EDE2B5A005524EC /* 005-pizza-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005-pizza-32.png"; sourceTree = "<group>"; };
+		432B454F1EDE2B5A005524EC /* 006-ice-cream-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006-ice-cream-32.png"; sourceTree = "<group>"; };
+		432B455C1EDE2FCB005524EC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		432B455E1EDE2FFA005524EC /* PizzaRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaRepository.swift; sourceTree = "<group>"; };
+		432B45601EDE301D005524EC /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		432B45621EDE302B005524EC /* Bebida.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
+		432B45641EDE3036005524EC /* Sobremesa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sobremesa.swift; sourceTree = "<group>"; };
+		432B45661EDE307D005524EC /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		432B45681EDE3090005524EC /* Carrinho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carrinho.swift; sourceTree = "<group>"; };
+		432B456C1EDE361A005524EC /* UICardapioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICardapioViewController.swift; sourceTree = "<group>"; };
+		432B456F1EDE3A5D005524EC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		432B45701EDE3A5D005524EC /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		432B45731EDE423E005524EC /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		432B45751EDE4407005524EC /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		432B45771EDE55F2005524EC /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		432B45791EDE5795005524EC /* BebidaRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BebidaRepository.swift; sourceTree = "<group>"; };
+		4355F5D71EDF7CD3008E5F89 /* refrigerante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refrigerante.png; sourceTree = "<group>"; };
+		4355F5D81EDF7CD3008E5F89 /* vinhoTinto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vinhoTinto.png; sourceTree = "<group>"; };
+		4355F5D91EDF7CD3008E5F89 /* pinga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinga.png; sourceTree = "<group>"; };
+		4355F5DA1EDF7CD3008E5F89 /* suco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suco.png; sourceTree = "<group>"; };
+		4355F5DB1EDF7CD3008E5F89 /* frangoCatupiry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frangoCatupiry.png; sourceTree = "<group>"; };
+		4355F5DC1EDF7CD3008E5F89 /* brigadeiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brigadeiro.png; sourceTree = "<group>"; };
+		4355F5DD1EDF7CD3008E5F89 /* portuguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portuguesa.png; sourceTree = "<group>"; };
+		4355F5DE1EDF7CD3008E5F89 /* Atum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Atum.png; sourceTree = "<group>"; };
+		4355F5DF1EDF7CD3008E5F89 /* mussarela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mussarela.png; sourceTree = "<group>"; };
+		4355F5E01EDF7CD3008E5F89 /* fioOvos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fioOvos.png; sourceTree = "<group>"; };
+		4355F5E11EDF7CD3008E5F89 /* sorvete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sorvete.png; sourceTree = "<group>"; };
+		4355F5E21EDF7CD3008E5F89 /* saladaFruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saladaFruta.png; sourceTree = "<group>"; };
+		4355F5EF1EDF7EBD008E5F89 /* Injector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		4355F5F11EDF7F45008E5F89 /* PizzaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaPresenter.swift; sourceTree = "<group>"; };
+		4355F5F31EDF7F6A008E5F89 /* BebidaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BebidaPresenter.swift; sourceTree = "<group>"; };
+		4355F5F51EDF7F8B008E5F89 /* SobremesaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobremesaPresenter.swift; sourceTree = "<group>"; };
+		4355F5F91EDF888E008E5F89 /* ListaProdutos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProdutos.swift; sourceTree = "<group>"; };
+		4355F5FB1EDF9C94008E5F89 /* ViewDescricao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDescricao.swift; sourceTree = "<group>"; };
+		4355F5FD1EDFA499008E5F89 /* ViewCarrinho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCarrinho.swift; sourceTree = "<group>"; };
+		4355F5FF1EDFA936008E5F89 /* forno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forno.png; path = ../forno.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +132,109 @@
 		432B45281EDE233A005524EC /* Pizzaria */ = {
 			isa = PBXGroup;
 			children = (
+				432B455B1EDE2F67005524EC /* View */,
+				432B455A1EDE2F5B005524EC /* Repository */,
+				432B45591EDE2F4A005524EC /* Presenter */,
+				432B45581EDE2F3F005524EC /* Model */,
 				432B45291EDE233A005524EC /* AppDelegate.swift */,
-				432B452B1EDE233A005524EC /* ViewController.swift */,
-				432B452D1EDE233A005524EC /* Main.storyboard */,
 				432B45301EDE233A005524EC /* Assets.xcassets */,
 				432B45321EDE233A005524EC /* LaunchScreen.storyboard */,
+				4355F5EF1EDF7EBD008E5F89 /* Injector.swift */,
 				432B45351EDE233A005524EC /* Info.plist */,
+				432B45481EDE2B5A005524EC /* assets */,
 			);
 			path = Pizzaria;
+			sourceTree = "<group>";
+		};
+		432B45481EDE2B5A005524EC /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				432B456E1EDE3A5D005524EC /* imagens */,
+				432B45491EDE2B5A005524EC /* 32 */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		432B45491EDE2B5A005524EC /* 32 */ = {
+			isa = PBXGroup;
+			children = (
+				432B45731EDE423E005524EC /* home.png */,
+				432B454A1EDE2B5A005524EC /* 001-pizza-1-32.png */,
+				432B454B1EDE2B5A005524EC /* 002-list-32.png */,
+				432B454C1EDE2B5A005524EC /* 003-shopping-cart-32.png */,
+				432B454D1EDE2B5A005524EC /* 004-glass-32.png */,
+				432B454E1EDE2B5A005524EC /* 005-pizza-32.png */,
+				432B454F1EDE2B5A005524EC /* 006-ice-cream-32.png */,
+			);
+			path = 32;
+			sourceTree = "<group>";
+		};
+		432B45581EDE2F3F005524EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432B45601EDE301D005524EC /* Pizza.swift */,
+				432B45621EDE302B005524EC /* Bebida.swift */,
+				432B45641EDE3036005524EC /* Sobremesa.swift */,
+				432B45661EDE307D005524EC /* Produto.swift */,
+				432B45681EDE3090005524EC /* Carrinho.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		432B45591EDE2F4A005524EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4355F5F11EDF7F45008E5F89 /* PizzaPresenter.swift */,
+				4355F5F31EDF7F6A008E5F89 /* BebidaPresenter.swift */,
+				4355F5F51EDF7F8B008E5F89 /* SobremesaPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		432B455A1EDE2F5B005524EC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				432B455E1EDE2FFA005524EC /* PizzaRepository.swift */,
+				432B45771EDE55F2005524EC /* File.swift */,
+				432B45791EDE5795005524EC /* BebidaRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		432B455B1EDE2F67005524EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				432B455C1EDE2FCB005524EC /* MainViewController.swift */,
+				432B452D1EDE233A005524EC /* Main.storyboard */,
+				4355F5FD1EDFA499008E5F89 /* ViewCarrinho.swift */,
+				432B456C1EDE361A005524EC /* UICardapioViewController.swift */,
+				432B45751EDE4407005524EC /* DashboardController.swift */,
+				4355F5F91EDF888E008E5F89 /* ListaProdutos.swift */,
+				4355F5FB1EDF9C94008E5F89 /* ViewDescricao.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		432B456E1EDE3A5D005524EC /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				4355F5FF1EDFA936008E5F89 /* forno.png */,
+				4355F5D71EDF7CD3008E5F89 /* refrigerante.png */,
+				4355F5D81EDF7CD3008E5F89 /* vinhoTinto.png */,
+				4355F5D91EDF7CD3008E5F89 /* pinga.png */,
+				4355F5DA1EDF7CD3008E5F89 /* suco.png */,
+				4355F5DB1EDF7CD3008E5F89 /* frangoCatupiry.png */,
+				4355F5DC1EDF7CD3008E5F89 /* brigadeiro.png */,
+				4355F5DD1EDF7CD3008E5F89 /* portuguesa.png */,
+				4355F5DE1EDF7CD3008E5F89 /* Atum.png */,
+				4355F5DF1EDF7CD3008E5F89 /* mussarela.png */,
+				4355F5E01EDF7CD3008E5F89 /* fioOvos.png */,
+				4355F5E11EDF7CD3008E5F89 /* sorvete.png */,
+				4355F5E21EDF7CD3008E5F89 /* saladaFruta.png */,
+				432B456F1EDE3A5D005524EC /* icon.png */,
+				432B45701EDE3A5D005524EC /* welcome.png */,
+			);
+			path = imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +297,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				432B45341EDE233A005524EC /* LaunchScreen.storyboard in Resources */,
+				432B45721EDE3A5D005524EC /* welcome.png in Resources */,
+				4355F5EE1EDF7CD3008E5F89 /* saladaFruta.png in Resources */,
+				4355F5EA1EDF7CD3008E5F89 /* Atum.png in Resources */,
+				4355F5E91EDF7CD3008E5F89 /* portuguesa.png in Resources */,
+				432B45501EDE2B5A005524EC /* 001-pizza-1-32.png in Resources */,
+				4355F5EB1EDF7CD3008E5F89 /* mussarela.png in Resources */,
+				432B45521EDE2B5A005524EC /* 003-shopping-cart-32.png in Resources */,
+				432B45531EDE2B5A005524EC /* 004-glass-32.png in Resources */,
+				4355F5E71EDF7CD3008E5F89 /* frangoCatupiry.png in Resources */,
+				4355F5E61EDF7CD3008E5F89 /* suco.png in Resources */,
+				4355F5E51EDF7CD3008E5F89 /* pinga.png in Resources */,
+				4355F5EC1EDF7CD3008E5F89 /* fioOvos.png in Resources */,
+				4355F5ED1EDF7CD3008E5F89 /* sorvete.png in Resources */,
+				4355F5E41EDF7CD3008E5F89 /* vinhoTinto.png in Resources */,
 				432B45311EDE233A005524EC /* Assets.xcassets in Resources */,
+				432B45541EDE2B5A005524EC /* 005-pizza-32.png in Resources */,
+				432B45711EDE3A5D005524EC /* icon.png in Resources */,
+				432B45741EDE423E005524EC /* home.png in Resources */,
+				4355F6001EDFA936008E5F89 /* forno.png in Resources */,
+				432B45511EDE2B5A005524EC /* 002-list-32.png in Resources */,
+				432B45551EDE2B5A005524EC /* 006-ice-cream-32.png in Resources */,
+				4355F5E81EDF7CD3008E5F89 /* brigadeiro.png in Resources */,
 				432B452F1EDE233A005524EC /* Main.storyboard in Resources */,
+				4355F5E31EDF7CD3008E5F89 /* refrigerante.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +331,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432B452C1EDE233A005524EC /* ViewController.swift in Sources */,
+				432B45671EDE307D005524EC /* Produto.swift in Sources */,
+				4355F5F21EDF7F45008E5F89 /* PizzaPresenter.swift in Sources */,
+				432B45611EDE301D005524EC /* Pizza.swift in Sources */,
+				432B456D1EDE361A005524EC /* UICardapioViewController.swift in Sources */,
 				432B452A1EDE233A005524EC /* AppDelegate.swift in Sources */,
+				4355F5F01EDF7EBD008E5F89 /* Injector.swift in Sources */,
+				4355F5FE1EDFA499008E5F89 /* ViewCarrinho.swift in Sources */,
+				432B455D1EDE2FCB005524EC /* MainViewController.swift in Sources */,
+				4355F5F41EDF7F6A008E5F89 /* BebidaPresenter.swift in Sources */,
+				432B455F1EDE2FFA005524EC /* PizzaRepository.swift in Sources */,
+				432B45761EDE4407005524EC /* DashboardController.swift in Sources */,
+				4355F5FC1EDF9C94008E5F89 /* ViewDescricao.swift in Sources */,
+				432B45631EDE302B005524EC /* Bebida.swift in Sources */,
+				432B457A1EDE5795005524EC /* BebidaRepository.swift in Sources */,
+				4355F5F61EDF7F8B008E5F89 /* SobremesaPresenter.swift in Sources */,
+				432B45651EDE3036005524EC /* Sobremesa.swift in Sources */,
+				432B45781EDE55F2005524EC /* File.swift in Sources */,
+				432B45691EDE3090005524EC /* Carrinho.swift in Sources */,
+				4355F5FA1EDF888E008E5F89 /* ListaProdutos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +362,7 @@
 				432B452E1EDE233A005524EC /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		432B45321EDE233A005524EC /* LaunchScreen.storyboard */ = {
@@ -301,6 +514,7 @@
 				432B453A1EDE233A005524EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

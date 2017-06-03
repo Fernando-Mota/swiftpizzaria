@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+    let pizzaPresenter = PizzaPresenter()
+    
+    let sobremesaPresenter = SobremesaPresenter()
+    
+    let bebidaPresenter = BebidaPresenter()
+
+    let carrinho = Carrinho()
+
+    var currentPresenter = 0
